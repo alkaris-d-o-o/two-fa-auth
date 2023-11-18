@@ -1,0 +1,21 @@
+{
+    "name": "alkaris/two-fa-auth",
+    "description": "Laravel login using 2FA with Mobile Apps API support",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aladin Kapic",
+            "email": "aladin.kapic@alkaris.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "alkaris/sms-service": "^1.0",
+        "laravelcollective/html": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alkaris\\TwoFAAuth\\": "src/"
+        }
+    }
+}
